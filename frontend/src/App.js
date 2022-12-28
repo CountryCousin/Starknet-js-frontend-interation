@@ -256,7 +256,7 @@ function App() {
       <Container maxW="1200px" bg="white">
         <Box height={100}>
           <Text fontSize="5xl" float="left" marginTop="3" marginLeft="7">
-            Godspower Eze Token
+            Victor C. Cousin Token
           </Text>
           {!connected ? (
             <Button
@@ -269,7 +269,7 @@ function App() {
             </Button>
           ) : (
             <Button padding={5} marginTop="6" float="right">
-              <Text as="b">GE Token:</Text>
+              <Text as="b">CC Token:</Text>
               <Text>{balance} </Text>
               <Text>---{trimmedAddress}</Text>
             </Button>
